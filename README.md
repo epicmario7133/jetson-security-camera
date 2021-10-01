@@ -61,6 +61,10 @@ Now we need to define the video input by editing line 13, by default the usb cam
 
 [scheme source](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md "scheme source")
 
+Then run the program like this:
+```
+python3.6 main.py
+```
 
 # Model information:
 40000 images of people during the day
