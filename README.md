@@ -68,6 +68,7 @@ python3.6 main.py
 
 # Model information:
 40000 images of people during the day
+
 20000 images of people at night (most in black and white)
 
 # Pros and cons:
