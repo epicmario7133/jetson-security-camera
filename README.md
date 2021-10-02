@@ -79,6 +79,6 @@ Cons
 - at night the person must be in the center of the camera to be found
 
 # Demo video:
-[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/5b4fPcDmFr4/mq2.jpg?sqp=CJSE3YoG&rs=AOn4CLCBiuNCBQpHxmEOFisUvq2wFXi1wQ)](https://www.youtube.com/watch?v=5b4fPcDmFr4)
+[![youtube video](https://i.ibb.co/ssQVpzb/mq2.jpg)](https://www.youtube.com/watch?v=5b4fPcDmFr4)
 
 
