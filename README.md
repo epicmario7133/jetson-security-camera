@@ -75,7 +75,8 @@ python3.6 main.py
 Pros:
 - Can send photos if a person is inside your home
 - It can find people even at night
-Cons
+
+Cons:
 - at night the person must be in the center of the camera to be found
 
 # Demo video:
