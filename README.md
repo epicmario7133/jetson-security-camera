@@ -23,8 +23,8 @@ pip3 install python-telegram-bot --upgrade
 git clone https://github.com/epicmario7133/jetson-security-camera.git
 mkdir model
 cd model
-wget http://epicmario71.ddns.net/nvidia/ssd-mobilenet.onnx
-wget http://epicmario71.ddns.net/nvidia/labels.txt
+wget https://epicmario71.com/model/ssd-mobilenet.onnx
+wget https://epicmario71.tk/model/labels.txt
 cd ..
 ```
 
