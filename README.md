@@ -24,7 +24,7 @@ git clone https://github.com/epicmario7133/jetson-security-camera.git
 mkdir model
 cd model
 wget https://epicmario71.com/model/ssd-mobilenet.onnx
-wget https://epicmario71.tk/model/labels.txt
+wget https://epicmario71.com/model/labels.txt
 cd ..
 ```
 
