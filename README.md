@@ -68,6 +68,7 @@ python3.6 main.py
 ```
 
 To deactivate or reactivate the function that sends the warning on the telegram just do this command on the telegram:
+
 To turn off:
 ```
 /off
