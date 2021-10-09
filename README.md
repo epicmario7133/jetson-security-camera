@@ -35,14 +35,15 @@ Now we need to generate the api key for the telegram bot
 3) Click “Start”
 4) Type /newbot and send it
 5) Select a name for your bot
-6) copy the token and put it in line 7 of the main.py file (you can change it by doing this command: nano main.py then check X and then Y)
+6) copy the token and put it in line 8 of the main.py file (you can change it by doing this command: nano main.py then check X and then Y)
+7) copy the token and paste it into line 3 of the listen.py file
 
 Now we need to find your user id like this:
 
 1) Open telegram
 2) In the search bar search: @userinfobot
 3) Click “Start”
-4) After which you will see your id copy it and edit line 8
+4) After which you will see your id copy it and edit line 9
 
 
 Now we need to define the video input by editing line 13, by default the usb camera is used, here you have a scheme of which input you can use
