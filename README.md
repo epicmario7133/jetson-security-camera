@@ -5,7 +5,7 @@ Jetson Security Camera is a program to make your security camera "intelligence",
 Install jetson-inference
 ```
 sudo apt-get update
-sudo apt-get install git cmake libpython3-dev python3-numpy nano
+sudo apt-get install git cmake libpython3-dev python3-numpy nano scrot
 git clone --recursive https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
 mkdir build
