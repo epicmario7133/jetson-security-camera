@@ -3,7 +3,8 @@ import jetson.utils
 import time
 import os
 import telegram
-
+import json
+os.system("gnome-terminal -e 'sh -c \"python3.6 listen.py; exec bash\"'")
 api_key = 'bot_api_key_here'
 user_id = 'user_id_here'
 bot = telegram.Bot(token=api_key)
@@ -19,12 +20,14 @@ def sendphoto():
     bot.send_photo(chat_id=user_id, photo=open('screenshot.png', 'rb'))
 
 while True:
+    with open('data.json') as json_file: #Check if bot is alredy working
+        data = json.load(json_file)
     img = camera.Capture()
     detections = net.Detect(img)
     for detection in detections:
         id = net.GetClassDesc(detection.ClassID)
         print(id)
-        if id == "Person":
+        if id == "Person" and data["on"] == "1":
             os.system("scrot screenshot.png -u")
             sendphoto()
             time.sleep(1) #give time to upload photo, set it on 6 if your internet is slow
