@@ -67,6 +67,17 @@ Then run the program like this:
 python3.6 main.py
 ```
 
+To deactivate or reactivate the function that sends the warning on the telegram just do this command on the telegram:
+To turn off:
+```
+/off
+```
+To turn on:
+```
+/on
+```
+
+
 # Model information:
 40000 images of people during the day
 
