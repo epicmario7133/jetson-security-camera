@@ -20,7 +20,7 @@ def sendphoto():
     bot.send_photo(chat_id=user_id, photo=open('screenshot.png', 'rb'))
 
 while True:
-    with open('data.json') as json_file: #Check if bot is alredy working
+    with open('data.json') as json_file: #Check on/of from telegram
         data = json.load(json_file)
     img = camera.Capture()
     detections = net.Detect(img)
