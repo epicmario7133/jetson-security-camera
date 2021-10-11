@@ -25,6 +25,8 @@ mkdir model
 cd model
 wget https://epicmario71.com/model/ssd-mobilenet.onnx
 wget https://epicmario71.com/model/labels.txt
+wget https://epicmario71.com/model/ssd_inception_v2_coco.uff
+wget https://epicmario71.com/model/ssd_coco_labels.txt 
 cd ..
 ```
 
