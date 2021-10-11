@@ -12,6 +12,7 @@ mkdir build
 cd build
 cmake ../
 make -j$(nproc)
+ATTENTION YOU WILL GET WRITTEN ASKING FOR THE MODELS TO DOWNLOAD, YOU MUST CHOOSE ALL MODELS OBJECT DETECTION
 sudo make install
 sudo ldconfig
 ```
@@ -25,8 +26,6 @@ mkdir model
 cd model
 wget https://epicmario71.com/model/ssd-mobilenet.onnx
 wget https://epicmario71.com/model/labels.txt
-wget https://epicmario71.com/model/ssd_inception_v2_coco.uff
-wget https://epicmario71.com/model/ssd_coco_labels.txt 
 cd ..
 ```
 
