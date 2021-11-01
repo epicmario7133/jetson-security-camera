@@ -4,11 +4,32 @@ import time
 import os
 import telegram
 import json
+with open('data.json') as json_file: #Check first open
+    data = json.load(json_file)
+
+if data["first-open"] == "0":
+    data["api_key"] = input("""\
+    1) Open telegram
+    2) In the search bar search: @Botfather
+    3) Click “Start”
+    4) Type /newbot and send it
+    5) Select a name for your bot
+    6) Paste the token here
+    """)
+    data["user_id"] = input("""\
+    Open telegram
+    In the search bar search: @userinfobot
+    Click “Start”    
+    Paste the id here
+    """)
+    data["first-open"] = "1"
+    with open('data.json', 'w') as outfile:
+        json.dump(data, outfile)
+
+
+bot = telegram.Bot(token=data["api_key"])
+bot.send_message(chat_id=data["user_id"], text='Security cam bot start')
 os.system("gnome-terminal -e 'sh -c \"python3.6 listen.py; exec bash\"'")
-api_key = 'bot_api_key_here'
-user_id = 'user_id_here'
-bot = telegram.Bot(token=api_key)
-bot.send_message(chat_id=user_id, text='Jetson Security Camera started')
 
 net = jetson.inference.detectNet(argv=['--model=ssd-inception-v2', '--input-blob=input_0', '--output-cvg=scores', '--output-bbox=boxes'])
 camera = jetson.utils.videoSource("/dev/video0")
