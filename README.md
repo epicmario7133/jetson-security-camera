@@ -29,7 +29,7 @@ wget https://epicmario71.com/model/labels.txt
 cd ..
 ```
 
-Now we need to define the video input by editing line 13, by default the usb camera is used, here you have a scheme of which input you can use
+Now we need to define the video input by editing line 35, by default the usb camera is used, here you have a scheme of which input you can use
 
 
 
