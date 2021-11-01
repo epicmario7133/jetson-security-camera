@@ -1,10 +1,8 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import json
-TOKEN = "Your token here"
-
-
-with open('data.json') as json_file:
+with open('data.json') as json_file: #Load Token
     data = json.load(json_file)
+TOKEN = data["api_key"]
 
 
 def on(update, context):
