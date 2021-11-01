@@ -96,4 +96,8 @@ Cons:
 # Demo video:
 [![youtube video](https://i.ibb.co/ssQVpzb/mq2.jpg)](https://www.youtube.com/watch?v=5b4fPcDmFr4)
 
+# Difference between ssd inception model and main model
 
+[![youtube video](https://i.ibb.co/XjMmHcP/mq1.jpg)](https://www.youtube.com/watch?v=M06uGCzwmfI)
+
+Here we can see the difference between the ssd inception model and the main model (the one found in main.py), as we can see the ssd inception model makes more mistakes to find people in the video but it recognizes people almost imediately, while the main model takes longer to find people but makes no mistake in finding them
