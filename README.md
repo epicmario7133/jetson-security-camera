@@ -1,6 +1,6 @@
 # Jetson Security Camera
 ![](https://github.com/epicmario7133/jetson-security-camera/raw/main/header.jpg)
-Jetson Security Camera is a program to make your security camera "intelligence", using [pytorch](https://pytorch.org/ "pytorch") and a model trained to recognize people during the day and night and then notify you via telegram.
+Jetson Security Camera is a program to make your security camera "intelligent", using [pytorch](https://pytorch.org/ "pytorch") and a model trained to recognize people during the day and night and then notify you via telegram.
 # Download and configuration
 Install jetson-inference
 ```
