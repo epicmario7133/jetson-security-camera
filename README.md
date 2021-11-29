@@ -90,4 +90,4 @@ Here we can see the difference between the ssd inception model and the main mode
 
 [![youtube video](https://i.ibb.co/QJfKYxq/mq3.jpg)](https://www.youtube.com/watch?v=gqNN1YED2zk)
 
-Here we can see the difference of the free model and the paid model, the free model was made with 6000 images and one epoch, while the paid one is made with 150000 and 5 epochs (it will be improved every month)
+Here we can see the difference of the free model and the paid model, the free model was made with 60000 images and one epoch, while the paid one is made with 150000 and 5 epochs (it will be improved every month)
