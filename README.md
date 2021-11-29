@@ -85,3 +85,9 @@ Cons:
 [![youtube video](https://i.ibb.co/XjMmHcP/mq1.jpg)](https://www.youtube.com/watch?v=M06uGCzwmfI)
 
 Here we can see the difference between the ssd inception model and the main model (the one found in main.py), as we can see the ssd inception model makes more mistakes to find people in the video but it recognizes people almost imediately, while the main model takes longer to find people but makes no mistake in finding them
+
+# Difference between the paid model and the free model
+
+[![youtube video](https://i.ibb.co/QJfKYxq/mq3.jpg)](https://www.youtube.com/watch?v=gqNN1YED2zk)
+
+Here we can see the difference of the free model and the paid model, the free model was made with 6000 images and one epoch, while the paid one is made with 150000 and 5 epochs (it will be improved every month)
